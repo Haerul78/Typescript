@@ -10,3 +10,7 @@ function greet(name: string): string {
     console.log(`Hello, ${name}!`);
     return `Hello, ${name}!`;
 }
+
+function add(a: number, b: number): number {
+    return a + b;
+}
